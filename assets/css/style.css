@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+img {
+  width: 100%;
+}
+
+body {
+ font-family: 'Poppins', sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.game-container {
+  background-color: burlywood;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+.playerContainer {
+  width: 200px;
+  height: 200px;
+}
+
+.war {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-cont {
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+}
